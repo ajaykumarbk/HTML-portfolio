@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #2B7A78;
+        }
+        .verticalLine {
+        border-left: 2px solid black;
+        position: absolute;
+        height: 600px;
+        left: 50%;
+        /* margin-left: -3px; */
+        top: 50px;
+      }
+      .div1{
+        display:flex;
+        justify-content:space-between;
+        justify-content: flex-end;
+        margin-right: 30px;
+      }
+      .div2{
+        margin-left: 80px;
+        margin-top: 30px;
+        font-size: xx-large;
+      }
+      .div1 li{
+        display: inline;
+        margin-top: 20px;
+      }
+      .div3{
+        display: flex;
+      }
+      .div1 li a{
+        text-decoration: none;
+        margin-right: 30px;
+        color: white;
+      }
+      .tags{
+        padding-top: 200px;
+        margin-left: 80px;
+        
+      }
+      .tags p{
+        margin: 1px;
+        color: white;
+        font-size: 25px;
+      }
+      .form{
+        margin-left: 400px;
+        margin-top: 4%;
+      }
+      .form input{
+        width: 280px;
+        height: 30px;
+        border-radius: 40px;
+      }
+      button{
+        width: 100px;
+        height: 40px;
+        border-radius: 30px;
+        margin-left: 100px;
+      }
+      .form p{
+        margin-left: 50px;
+      }
+      input[type="email"],input[type="text"],input[type="password"],input[type="password"]{
+                text-align: center;
+            }
+    </style>
+</head>
+<body>
+  <section class="iv">
+    <div class="div1">
+        <li><a href="">REGISTER</a></li>
+        <li><a href="">SIGN IN</a></li>
+    </div>
+    <div class="div2">
+        <h1>IV INDIA</h1>
+    </div>
+    <div class="div3">
+        <div class="tags">
+            <p>#ShareNews</p>
+            <p>#GetNews</p>
+            <p>#ForTheVillageToTheVillageByTheVillage</p>
+        </div>
+        <div class= "verticalLine"></div>
+        <div class="form">
+            <input type="text" placeholder="username"><br><br>
+            <input type="email" placeholder="Email"><br><br>
+            <input type="password" placeholder="password"><br><br>
+            <input type="password" placeholder="confirm password"><br><br>
+            <p>Already a member Log In</p>
+            <button>Register</button>
+        </div>
+    </div>
+  </section>  
+</body>
+</html>
